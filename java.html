@@ -12,6 +12,31 @@
     </style>
 </head>
 <body>
+    <h1 id="text">Котики-мотиваторы</h1>
+    <button onclick="toggleHighLight()">Переключить стиль</button>
+    <script>
+        function toggleHighLight() {
+            document.getElementById("text").classList.toggle("highlight");
+        }
+    </script>
+    <img id="image" src="https://cs13.pikabu.ru/post_img/2023/02/10/6/og_og_1676017526290832475.jpg" alt="Котик 1">
+    <button onclick="changeImage ()">Изменить изображение</button>
+    <script src="/Java_script/script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .highlight {
+            color: blueviolet;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
     <h1 id="text">КОТИКИ-МОТИВАТОРЫ</h1>
     <button onclick="toggleHighLight()">Переключить стиль</button>
     <script>
